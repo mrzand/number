@@ -1,0 +1,87 @@
+body {
+    background: url(img/1.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.header {
+    text-align: center;
+}
+
+.middle {
+    text-align: center;
+}
+
+.middle h2 {
+    color: #d50000;
+}
+
+#table {
+    display: inline-block;
+    position: relative;
+    background-color: #212121;
+    height: 500px;
+    border-radius: 20px;
+    margin-top: 70px;
+    border: 1px solid white;
+}
+
+#guess {
+    width: 100%;
+    font-size: 30px;
+    border-radius: 6px;
+}
+
+#submit {
+    width: 100%;
+    margin-top: 10px;
+    position: relative;
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+    background-color: #d50000;
+    font-family: tahoma;
+    border: none;
+    font-size: 2em;
+    display: inline-block;
+    padding: 4px;
+    height: 50px;
+    border-radius: 6px;
+    box-shadow: 0px 4px 0px rgba(219, 31, 5, 1), 0px 9px 25px rgba(0, 0, 0, .7);
+    text-align: center;
+    transition: all .1s ease;
+}
+
+#submit:active {
+    background-color: red;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+#table h1 {
+    color: white;
+}
+
+#newgame {
+    width: 200px;
+    height: 50px;
+    margin-top: 10px;
+    background-color: rgba(219, 31, 5, 0);
+    color: white;
+    border: 2px solid white;
+    border-radius: 4px;
+    font-size: 18px;
+}
+
+#newgame {
+    transition-duration: 0.4s;
+}
+
+#newgame:hover {
+    background-color: #4A148C;
+    color: white;
+}
+
+#hint {
+    margin-top: 50px;
+    color: white;
+    font-size: 40px;
+}
